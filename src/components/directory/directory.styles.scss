@@ -1,0 +1,151 @@
+.carousel-container {
+    height: 500px;
+
+    .carousel-inner {
+        height: 100%;
+        .carousel-item {
+            height: 100%;
+        }
+
+        img {
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next,
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+.offers-container {
+    padding: 1rem 0;
+    background-color: #eeeeee;
+
+    .row {
+        margin: 0 10rem;
+    }
+
+    .offers-icon-container {
+        background: #a6b5be;
+        width: 60px;
+        height: 60px;
+        margin: auto;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+    }
+
+    .offers-icon {
+        font-size: 30px;
+        color: #dbcfb1;
+    }
+
+    .offers-text {
+        text-align: center;
+        margin: 1rem 0;
+        font-family: "Oswald", sans-serif;
+        font-size: 14px;
+    }
+}
+
+.cards-wrapper {
+    text-align: center;
+    margin: 5rem 0;
+
+    h2 {
+        font-family: "Merriweather", serif;
+        letter-spacing: 0.5px;
+    }
+
+    .cards-icon-container {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin: 2rem 0;
+
+        .cards-icon {
+            color: hsl(0, 0%, 0%, 0.5);
+            font-size: 18px;
+        }
+
+        .cards-icon-lines {
+            width: 100px;
+            border-top: 1px solid hsl(0, 0%, 0%, 0.3);
+            align-self: center;
+        }
+    }
+}
+
+.Counter-Countainer {
+    display: flex;
+    justify-content: center;
+    margin: 8rem 0;
+
+    .Counter-Wrapper {
+        text-align: center;
+        font-family: "Merriweather", serif;
+        width: 20%;
+        height: 100px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        font-size: 17px;
+    }
+    .Counter-Wrapper:nth-child(1),
+    .Counter-Wrapper:nth-child(2),
+    .Counter-Wrapper:nth-child(3) {
+        border-right: 1px solid black;
+    }
+}
+
+.Directory-Categories {
+    .Directory-Categories-Wrapper {
+        text-align: center;
+        margin: 5rem 0;
+    }
+
+    h2 {
+        font-family: "Merriweather", serif;
+        letter-spacing: 0.5px;
+    }
+
+    .Directory-Categories-IconCont {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin: 2rem 0;
+
+        .Directory-Categories-Icon {
+            color: hsl(0, 0%, 0%, 0.5);
+            font-size: 18px;
+        }
+
+        .Directory-Categories-Lines {
+            width: 100px;
+            border-top: 1px solid hsl(0, 0%, 0%, 0.3);
+            align-self: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Counter-Countainer {
+        flex-direction: column;
+        align-items: center;
+        margin: 5rem 0;
+
+        .Counter-Wrapper {
+            margin: 0.5rem 0;
+        }
+
+        .Counter-Wrapper:nth-child(1),
+        .Counter-Wrapper:nth-child(2),
+        .Counter-Wrapper:nth-child(3) {
+            border: none;
+        }
+    }
+}

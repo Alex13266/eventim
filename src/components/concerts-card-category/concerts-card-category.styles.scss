@@ -1,0 +1,35 @@
+.ConcertCategory-Container {
+    background-color: #f8f8f8;
+    padding: 1rem 0;
+}
+
+.SearchBar-Wrapper {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto 5rem auto;
+    background-color: #eeeeee;
+    width: 700px;
+    height: 45px;
+    border-radius: 25px;
+
+    input {
+        background-color: #eeeeee;
+        border: none;
+        width: 620px;
+        padding: 0 10px;
+    }
+
+    input:focus-visible {
+        outline: none;
+    }
+
+    .SearchBarIcons {
+        font-size: 18px;
+    }
+
+    .RemoveSearch {
+        cursor: pointer;
+    }
+}
