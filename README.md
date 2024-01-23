@@ -17,7 +17,7 @@
 * Artists(coming soon)
 * Performances(coming soon)
 
-####After cloning the repo run:
+#### After cloning the repo run:
 * npm -i
 
 ![image](https://github.com/Alex13266/eventim/assets/79878120/c839a822-1874-4638-8c84-c7b74170697c)
