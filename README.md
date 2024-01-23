@@ -1,16 +1,16 @@
-![image](https://github.com/Alex13266/eventim/assets/79878120/bd0a5497-792a-431b-971c-216c4429cc53)![image](https://github.com/Alex13266/eventim/assets/79878120/c0c07e90-2077-462a-8d37-22852cbf7d7b)## Eventim
+## Eventim
 
 #General Info
 
-A fully functional eCommerce website where you can purchas tickets for different events
+#A fully functional eCommerce website where you can purchas tickets for different events
 Front-end: React, SCSS
 Back-end: Firebase
 
-This project is created using:
+#This project is created using:
 • Design System
 • Hooks
 
-Features:
+#Features:
 Home(List products)
 Events
 Halls(coming soon)
