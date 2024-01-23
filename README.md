@@ -1,16 +1,16 @@
-## Eventim
+# Eventim
 
-# General Info
+## General Info
 
-# A fully functional eCommerce website where you can purchas tickets for different events
+## A fully functional eCommerce website where you can purchas tickets for different events
 * Front-end: React, SCSS
 * Back-end: Firebase
 
-# This project is created using:
+## This project is created using:
 * Design System
 * Hooks
 
-# Features:
+## Features:
 * Home(List products)
 * Events
 * Halls(coming soon)
