@@ -1,6 +1,6 @@
 # Eventim
 
-## General Info
+### General Info
 
 ## A fully functional eCommerce website where you can purchas tickets for different events
 * Front-end: React, SCSS
