@@ -3,6 +3,7 @@ import { useContext } from "react";
 import { CartContext } from "../../contexts/cart.context";
 
 import Button, { BUTTON_TYPE_CLASSES } from "../button/button.component";
+import { notification } from "antd";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faCalendar } from "@fortawesome/free-solid-svg-icons";
@@ -12,7 +13,17 @@ const EventsCard = ({ product }) => {
   const { name, price, imageUrl, location, date } = product;
   const { addItemToCart } = useContext(CartContext);
 
-  const addProductToCart = () => addItemToCart(product);
+  const addProductToCart = () => {
+    addItemToCart(product);
+    showSuccessNotification();
+  };
+
+  const showSuccessNotification = () => {
+    notification.success({
+      message: "Product Added",
+      description: `Concert for ${name} has been added to your cart.`,
+    });
+  };
 
   return (
     <div className='ProductCartContainer'>
