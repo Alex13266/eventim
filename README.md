@@ -2,18 +2,18 @@
 
 https://eventim-kappa.vercel.app
 
-### General Info
+## General Info
 
-## A fully functional eCommerce website where you can purchas tickets for different events
+### A fully functional eCommerce website where you can purchas tickets for different events
 * Front-end: React, SCSS
 * Back-end: Firebase
 * Vercel host
 
-## This project is created using:
+### This project is created using:
 * Design System
 * Hooks
 
-## Features:
+### Features:
 * Home(List products)
 * Events
 * Halls(coming soon)
@@ -21,7 +21,7 @@ https://eventim-kappa.vercel.app
 * Performances(coming soon)
 * Cart
 
-#### Installation and Setup Instructions
+### Installation and Setup Instructions
 1. installation: npm -i
 2. In the project directory, you can run: npm start
 
